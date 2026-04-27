@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*Global*/
+body {
+    background-color: brown;
+}
+
+/*Medium*/
+@media (min-width: 600px) {
+    body {
+        background-color: yellow ;
+    }
+}
+
+/*Large*/
+@media (min-width: 1024px) {
+    body {
+        background-color: purple ;
+    }
+}
+
+/*XL*/
+@media (min-width: 1280px) {
+    body {
+        background-color: green ;
+    }
+}
+
+
